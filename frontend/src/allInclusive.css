@@ -1,0 +1,900 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* ::before ::after {
+  box-sizing: inherit;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.jss0 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #242e30;
+  background-color: #fcfcfb;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: JETSansDigital, sans-serif !important;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+header {
+  display: block;
+  position: sticky;
+  top: 0px;
+  z-index: 6;
+}
+
+header .jss1 {
+  height: 90px;
+  padding: 0 45px;
+  border-bottom: 1px solid #f5f3f1;
+  background-color: #ffffff;
+}
+
+header .jss2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .jss19 {
+  width: unset;
+  display: flex;
+  align-items: center;
+}
+
+header .jss17 {
+  display: flex;
+}
+
+header .jss21 {
+  height: 45px;
+  cursor: pointer;
+}
+
+header .jss21 img {
+  height: 100%;
+}
+
+header .jss941 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+header .jss944 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+header .jss947 {
+  display: inline-flex;
+}
+
+header .jss948 p {
+  max-width: 260px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+header .jss949 {
+  height: 20px;
+  width: 20px;
+}
+
+header .jss16 {
+  display: flex;
+  padding-right: 140px;
+}
+
+header .searchBar {
+  min-width: 448px;
+  max-with: 30.5%;
+  place-self: center flex-start;
+}
+header .searchBarInside {
+  padding: 10px 8px 10px 6px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #rgb(255, 255, 255);
+  color: rgb(36, 46, 48);
+  overflow: hidden;
+}
+
+header .searchBar input {
+  letter-spacing: 0px;
+  line-height: 20px;
+  width: 100%;
+  outline: 0;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 10px;
+  caret-color: rgb(36, 46, 48);
+  color: rgb(22, 32, 40);
+}
+
+header .searchBarInside svg {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+header .searchFilter {
+  align-self: center;
+  margin-left: 28px;
+  z-index: 100;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 32px;
+  padding: 3px 12px 4px;
+  color: rgb(66, 84, 87);
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+header .searchFilter svg {
+  margin-right: 8px;
+}
+
+header .jss23 {
+  display: flex;
+  align-items: center;
+}
+
+header .c5122 {
+  height: 25px;
+  width: 25px;
+}
+
+header .jss23 button {
+  max-width: 100%;
+  min-height: 42px;
+  margin-right: 15px;
+  padding: 8px 0 8px 10px;
+}
+
+header .jss4195 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header .jss4195 button span {
+  display: flex;
+  flex-direction: row;
+}
+
+header .jss4195 .jss20 {
+  font-weight: 500;
+  white-space: nowrap;
+  padding-left: 10px;
+  letter-spacing: 0;
+}
+
+header .jss4195 a span {
+  height: 24px;
+}
+
+header .jss4195 a button {
+  text-align: center;
+  padding: 8px 10px 6px 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1 1 0%;
+}
+
+main .kswwJX {
+  position: relative;
+  z-index: 2;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .kswwJX .kswwJXD {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 920px;
+}
+
+main .kswwJX .kswwJXD .jss974 {
+  padding-top: 32px;
+}
+
+main .kswwJX .kswwJXD .jss974 .c51363 {
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+main .kswwJX .kswwJXD .kswwJAA {
+  flex-direction: row;
+  transition: all 0s ease 0s;
+  direction: ltr;
+  display: flex;
+  will-change: transform;
+  transform: translate(-100%, 0px);
+}
+
+main .kswwJX .kswwJXD .kswwJAQ {
+  overflow-x: hidden;
+}
+
+main .kswwJX .kswwJXD .kswwJAA .kswwJER {
+  padding-right: 7px;
+}
+
+main .flowSponsor {
+  width: 453px;
+  height: 230px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("https://braze-images.com/banner_cards/images/641a002304a57e1cd98b763a/b412b2486e4ff89c58cc7d9984c326b49ac85f45/sdk.png?1679425858");
+}
+
+main .jss1604 {
+  height: 60px;
+  width: 30px;
+  margin-top: -30px;
+  background: rgba(255, 255, 255, 0.375);
+  cursor: pointer;
+  border: none;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+
+main .jss1605 {
+  position: absolute;
+  top: 50%;
+  border-radius: 0 30px 30px 0;
+}
+
+main .jss1606 {
+  position: absolute;
+  top: 50%;
+  right: 7px;
+  border-radius: 30px 0 0 30px;
+}
+
+main .jss1611 {
+  margin-left: -2px;
+  color: #ffffff;
+  pointer-events: none;
+}
+
+main .jss1612 {
+  margin-left: 9px;
+  color: #ffffff;
+  pointer-events: none;
+}
+
+main .kswwQW {
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+  padding: 32px 0px 0px 16px;
+}
+
+main .kswwQW .kswwQE {
+}
+
+main .kswwQW .kswwQE ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 14px 0px;
+  box-sizing: border-box;
+  min-width: fit-content;
+}
+
+main .kswwQW .kswwQE ul li {
+  cursor: pointer;
+  padding: 0px 16px;
+  min-width: fit-content;
+}
+
+main .kswwQW .kswwQE .kswwIB {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: rgb(245, 243, 241);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+main .kswwQW .kswwQE p {
+  font-size: 12px;
+  text-align: center;
+  margin: 5px 0px;
+  font-weight: 400;
+}
+main .kswwQW .kswwQE .kss9012 {
+  background-image: url("https://static.skipthedishes.com/carousels/Offers@3x.png");
+}
+main .kswwQW .kswwQE .kss9013 {
+  background-image: url("https://static.skipthedishes.com/carousels/Convenience@3x.png");
+}
+main .kswwQW .kswwQE .kss9011 {
+  background-image: url("https://static.skipthedishes.com/carousels/SEL-topnav@3x-New.png");
+}
+main .kswwQW .kswwQE .kss9014 {
+  background-image: url("https://static.skipthedishes.com/carousels/Alcohol@3x.png");
+}
+main .kswwQW .kswwQE .kss9015 {
+  background-image: url("https://static.skipthedishes.com/carousels/Grocery@3x.png");
+}
+
+main .kswwtt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 32px 0 24px;
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto !important;
+}
+
+main .kswwtt .main3001 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+main .kswwtt .main3002 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+main .ksww {
+  position: relative;
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+main .ksww4001 {
+  position: relative;
+  border-radius: 4px;
+}
+
+main .ksww4000 {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  color: rgb(12, 21, 29);
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+main .ksww4000left {
+  position: absolute;
+  top: 53px;
+  left: -12px;
+  z-index: 10;
+}
+
+main .ksww4000right {
+  position: absolute;
+  top: 53px;
+  right: -18px;
+  z-index: 10;
+}
+
+main .ksww .ksww4001 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+main .ksww4001 ul {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+main .ksww4001 ul li {
+  position: relative;
+  margin-left: 8px;
+}
+
+main .ksww4001 ul li div {
+  height: 149px;
+  width: 223px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgb(36, 46, 48);
+}
+
+main .ksww4001 ul li p {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 19px;
+  max-height: 38px;
+  max-width: 180px;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+}
+
+main .ksww4001 ul li .ksww4011 {
+  background-image: url("./src/assets/images/cuisine-sanwich.jpeg");
+}
+
+main .ksww4001 ul li .ksww4012 {
+  background-image: url("./src/assets/images/cuisine-Burgers.jpeg");
+}
+
+main .ksww4001 ul li .ksww4013 {
+  background-image: url("./src/assets/images/cuisine-chinese.jpeg");
+}
+
+main .ksww4001 ul li .ksww4014 {
+  background-image: url("./src/assets/images/cuisine-coffee&tea.jpeg");
+}
+
+main .ksww4001 ul li .ksww4015 {
+  background-image: url("./src/assets/images/cuisine-desserts.jpeg");
+}
+
+main .ksww4001 ul li .ksww4016 {
+  background-image: url("./src/assets/images/cuisine-pizza.jpeg");
+}
+
+main .kswwtt {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0 24px;
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto !important;
+}
+
+main .kswwtt .ksww3101 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+main .kswwtt .ksww3102 {
+  font-weight: 400;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 0 20px;
+}
+
+main .ksww3103 {
+  position: relative;
+  width: 100%;
+}
+
+main .ksww3103 ul {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  padding-bottom: 2px;
+}
+
+main .ksww3103 ul li {
+  border-radius: 4px;
+  height: 260px;
+  width: 301px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+}
+
+main .ksww3103 .ksww31031 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  padding: 0px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: rgba(23, 32, 38, 0.07) 0px 1px 1px 0px,
+    rgba(23, 32, 38, 0.06) 0px 2px 1px -1px,
+    rgba(23, 32, 38, 0.1) 0px 1px 3px 0px;
+  transition: box-shadow 0.15s linear 0s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(66, 84, 87);
+}
+
+main .ksww3103 .ksww31031 .ksww310311 {
+  position: relative;
+  width: 100%;
+  height: 139px;
+}
+
+main .ksww3103 .ksww31031 .ksww310311q {
+  position: absolute;
+  bottom: -12px;
+  left: 15px;
+  z-index: 99;
+  height: 56px;
+  width: 56px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
+}
+
+main .ksww3103 .ksww31031 .ksww310311 > img {
+  object-fit: cover;
+  max-width: 301px;
+  width: 301px;
+  height: 139px;
+  border-radius: 4px 4px 0 0;
+}
+
+main .ksww3103 .ksww31031 .ksww310311q img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+main .ksww3103 .ksww31032 {
+  width: 100%;
+  padding: 25px 16px 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+main .ksww3103 .ksww31032 .ksww310321 {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+
+main .ksww3103 .ksww31032 .ksww310322 {
+  font-size: 14px;
+  padding: 5px 0 5px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+main .ksww3103 .ksww31032 .ksww310322-1 {
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main .ksww3103 .ksww31032 .ksww310322-1 svg {
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+main .ksww3103 button {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(12, 21, 29);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .ksww3103 .ksww3103l {
+  left: -18px;
+  top: 100px;
+}
+
+main .ksww3103 .ksww3103r {
+  right: -18px;
+  top: 100px;
+}
+
+main .ksww1 {
+  padding: 24px 0 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+main .ksww2 ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  overflow-y: scroll;
+}
+
+main .ksww2 ul li {
+  position: relative;
+  margin: 0px 0px 15px;
+}
+
+main .ksww2 ul li .ksww21 {
+  padding: 4px;
+}
+
+.boxb {
+  border-radius: 4px;
+  border: none;
+  box-shadow: rgba(23, 32, 38, 0.07) 0px 1px 1px 0px,
+    rgba(23, 32, 38, 0.06) 0px 2px 1px -1px,
+    rgba(23, 32, 38, 0.1) 0px 1px 3px 0px;
+  transition: box-shadow 0.15s linear 0s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(66, 84, 87);
+}
+
+main .ksww211 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main .ksww211 .kswv2111 {
+  position: relative;
+  width: 266px;
+  height: 139px;
+}
+
+main .ksww211 .kswv2112 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  width: 304.5px;
+}
+
+main .ksww211 .kswv2112 .kswv21121 {
+  position: relative;
+  width: 68px;
+  height: 68px;
+  border-radius: 2px;
+  border: 1px solid rgb(225, 229, 232);
+  background-color: rgb(255, 255, 255);
+}
+
+main .ksww211 .kswv2112 .kswv21121 img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  object-fit: cover;
+}
+
+main .ksww211 .kswv2111 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 2px;
+}
+
+main .kswv21122 {
+  margin: 4px 0px 4px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  padding-right: 24px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 60px;
+  max-width: 194.5px;
+}
+
+main .kswv2113 {
+  width: 1px;
+  height: 105px;
+  background-color: rgb(245, 243, 241);
+  margin-right: 25px;
+  display: flex;
+}
+
+main .kswv2114 {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  align-items: flex-start;
+  font-weight: 400;
+}
+
+main .kswv21140 {
+  max-height: 22px;
+  max-width: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main .kswv21140 svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+footer .foot01 {
+  background-color: rgb(27, 37, 46);
+}
+
+footer .foot0001 {
+  max-width: 936px;
+  margin: 0 auto !important;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .foot0011 {
+  margin: 84px auto 0px;
+  max-width: none;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+footer .foot0111 {
+  display: flex;
+  flex: 1 1 auto;
+  text-align: left;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+footer .foot0111 ul {
+  display: flex;
+  justify-content: left;
+  flex-flow: row wrap;
+}
+
+footer .foot0111 ul li {
+  padding: 10px 0px;
+  width: 50%;
+  cursor: pointer;
+}
+
+footer .foot0112 {
+  padding-top: 0px;
+  max-width: unset;
+  border-top: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer .foot0112 button {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+footer .foot0112 button svg {
+  padding: 0 0 0 8px;
+}
+
+footer .foot2112 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .foot3111 {
+  padding: 14px 28px 14px 0;
+}
+
+footer .foot0021 {
+  margin: 32px auto 0px;
+  padding: 20px 0px 64px;
+  width: 100%;
+  border-top: 1px solid rgb(66, 84, 87);
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+
+footer .foot0021 ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .foot0021 ul li {
+  padding: 0 0 0 5px;
+}
+
+footer .foot0021 ul li::after {
+  content: "|";
+  white-space: nowrap;
+  color: rgb(66, 84, 87);
+  font-weight: 500;
+  padding: 0 0 0 0.5em;
+}
+
+footer .foot32 {
+  width: 100%;
+  background-color: rgb(22, 32, 40);
+  position: relative;
+}
+
+footer .foot302 {
+  max-width: 936px;
+  margin: 0px auto !important;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+footer .foot3221 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+}
+
+footer .foot3223 {
+  display: flex;
+  font-size: 12px;
+  text-align: right;
+  font-weight: 400;
+}

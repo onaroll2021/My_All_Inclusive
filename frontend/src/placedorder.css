@@ -1,0 +1,20 @@
+.placed-order-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.placed-order-table th,
+.placed-order-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.placed-order-table td img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
